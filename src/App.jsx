@@ -11,7 +11,7 @@ const App = () => {
     <ThemeProvider defaultTheme="light">
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route
+        <Route path="/"
           element={<RootLayout />}
         >
           <Route path="/home" element={<Home />} />
